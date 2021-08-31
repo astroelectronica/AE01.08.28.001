@@ -1,0 +1,7 @@
+*line regulation
+.include ../AE01.08.28.001.cir
+.param VIN=12
+.dc V1 0 {VIN} 0.1
+.backanno
+
+

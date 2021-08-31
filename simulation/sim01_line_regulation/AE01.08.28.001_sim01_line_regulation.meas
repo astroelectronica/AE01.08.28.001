@@ -1,0 +1,19 @@
+*line regulation
+*
+*load
+*
+*max current of one led
+.meas iled_max max I(D1)
+*max voltage of load
+.meas vled_max max V(/in,/1)
+*max power of load
+.meas pled_max param (iled_max*vled_max)
+*
+*source
+*
+*max current of source
+.meas isource_max max -I(V1)
+*max voltage of source
+.meas vsource_max max v1
+*max power of source
+.meas psource_max param (isource_max*vsource_max)
